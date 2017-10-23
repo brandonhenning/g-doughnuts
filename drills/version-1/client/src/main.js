@@ -1,15 +1,16 @@
 let button = document.getElementById('button')
+let add = document.getElementById('append')
 
 button.addEventListener('click', (e) => {
-// add fetch to server
-  let myInit = {
-    method: 'GET',
-    mode: 'no-cors',
-    cache: 'default'
-  }
-  fetch('http://localhost:3000/cake', myInit)
-  .then(res => res.blob())
-  .then(res => {
-    console.log(res)
+  add.innerText = ''
+  fetch('http://localhost:3000/cake')
+  .then((res) => res.json())
+  .then((data) => {
+    data.forEach((item) => {
+      let hele = document.createElement('h3')
+      hele.innerText = item.type
+      add.append(hele)
+    })
   })
+  .catch((err) => console.log(err))
 })
