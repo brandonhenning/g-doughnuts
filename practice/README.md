@@ -47,7 +47,7 @@ These instructions will lead you through how to deploy a full stack website with
   - "What do you want to use as an alias for this project?" Type an alias and hit enter.
 1. Deploy:
 
-  ```
+  ```sh
   $ firebase deploy
   ```
 
@@ -84,12 +84,12 @@ $ cp -r deploy-doughnuts/practice/server practice-server
   ```
 ### Heroku uses Git to track files, so:
 1. Initialize the repo
-```
+```sh
 $ git init
 ```
 1. Go to github.com and create a new repo
 1. Add that repo as a git remote
-```
+```sh
 git remote add origin [url]
 ```
 1. git add, commit and push all files
@@ -97,15 +97,15 @@ git remote add origin [url]
 ### Heroku Project
 
 1. Create a Heroku Project
-```
+```sh
 $ heroku create
 ```
 1. Confirm you have a heroku remote by running:
-```
+```sh
 $ git remote -v
 ```
 1. Deploy by pushing to Heroku
-```
+```sh
 $ git push heroku master
 ```
 
@@ -115,7 +115,7 @@ Re-deploy:
 
 1. git add, commit and push to Github
 1. Push to Heroku
-```
+```sh
 $ git push heroku master
 ```
 

@@ -1,22 +1,22 @@
 module.exports = {
-  cake: [{
+  doughnuts: [{
     id: 1,
-    type: 'Piped Cake Doughnuts'
+    type: 'Lemon Cream'
   },
   {
     id: 2,
-    type: 'Rolled-Out Cake Doughnuts'
+    type: 'Cinnamon'
   },
   {
     id: 3,
-    type: 'Crullers'
+    type: 'Vanilla Frosting with Sprinkles'
   },
   {
     id: 4,
-    type: 'Cider doughnuts'
+    type: 'Powdered'
   },
   {
     id: 5,
-    type: 'Old-Fashioned Doughnuts'
+    type: 'Boston Cream'
   }
   ]}
