@@ -1,6 +1,6 @@
 # Static Site Deployment
 
-These instructions will lead you through how to deploy a full stack website with a client deployed on Firebase and a server on Heroku
+These instructions will lead you through how to deploy a full stack website with a client deployed on Firebase and a server on Heroku.
 
 ## 1. Client (Front-end) Instructions
 
@@ -61,7 +61,7 @@ Re-deploy:
 
 1. run `firebase deploy`
 
-
+--------------
 
 ## 2. Server (Back-end) Instructions
 
@@ -118,3 +118,13 @@ Re-deploy:
 ```
 $ git push heroku master
 ```
+
+--------------
+
+## 3. Connect the Client & Server
+
+Now both the front-end and back-end are deployed
+1. In the original repo: `deploy-doughnuts`
+  - ** change into the `practice-client` folder ** from your command line
+  - Update the src/main.js file to do a fetch request to the deployed server
+  - Re-deploy your firebase client
