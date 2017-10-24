@@ -2,7 +2,8 @@
 
 ## Instructions:
 - Using the command line, copy the server folder into a NEW project
-- Commit that project to githubDeploy the server site to Heroku
+- Commit that project to github
+- Deploy the server site to Heroku
 
 - Update the client/main.js to do a fetch request to the deployed server site
 - Using the command line, deploy this client site to Firebase
