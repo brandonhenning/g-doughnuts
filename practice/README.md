@@ -37,8 +37,6 @@ These instructions will lead you through how to deploy a full stack website with
     - Hit enter. This will create a public folder.
   - "Configure as a single page app (rewrite all urls to /index.html)"?
     - No
-  - "File ./index.html already exists. Overwrite?"
-    - No
 
 1. In the new public folder, delete the index.html
 1. Move all previous files into the public folder
