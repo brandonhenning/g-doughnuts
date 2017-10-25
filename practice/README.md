@@ -73,7 +73,10 @@ $ cp -r deploy-doughnuts/practice/server practice-server
 ### If this is your first time deploying to Heroku from the command line
 1. Sign up for an account on [Heroku](https://www.heroku.com/).
 
-1. Install the Heroku CLI tools [here](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up)
+1. In the command line, install the Heroku CLI tools
+```
+$ brew install heroku/brew/heroku
+```
 
 1. Authorize your computer to have access to your Heroku account
 
