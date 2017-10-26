@@ -14,7 +14,7 @@ _Client_
 <hr> 
 
 Copy and Paste the Deployed Client Link to this README
-> [Client](https://galvanize-doughtnuts-1.firebaseapp.com/)
+> 
 
 Copy and Paste the Deployed Server Link to this README
-> [Server](https://tranquil-inlet-36440.herokuapp.com/)
+> 
