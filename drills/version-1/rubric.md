@@ -1,3 +1,4 @@
 - [ ] Client site is live at the link provided
-- [ ] Server site is live at the link provided (`/cake`)
-- [ ] Client site communicates with the server site
+- [ ] The client-side code includes an HTTP GET request to the server url 
+- [ ] Server site is live at the link provided
+
