@@ -7,7 +7,7 @@ _Server_
 1. Deploy the server to Heroku
 
 _Client_
-1.  Update the client/main.js to do a fetch request to the deployed server site
+1.  Update the client/src/main.js to do a fetch request to the deployed server site
 1.  Using the command line, deploy this client site to Firebase
 
 <hr>
