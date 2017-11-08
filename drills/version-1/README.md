@@ -12,6 +12,7 @@ _Client_
 1.  Using the command line, deploy this client site to Firebase
 
 <hr> 
+When you submit, please include the link to this repo. Include your deployed links below:
 
 Copy and Paste the Deployed Client Link to this README
 > your url here
