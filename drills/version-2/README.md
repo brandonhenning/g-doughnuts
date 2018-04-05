@@ -14,7 +14,7 @@ _Client_
 When you submit, please include the link to this repo. Include your deployed links below:
 
 Copy and Paste the Deployed Client Link to this README
-> your url here
+> https://doughnuts-2-ef004.firebaseapp.com
 
 Copy and Paste the Deployed Server Link to this README
-> you url here
+> https://doughnut-server-2.herokuapp.com/yeast
