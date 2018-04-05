@@ -3,7 +3,7 @@ let add = document.getElementById('append')
 
 button.addEventListener('click', (e) => {
   add.innerText = ''
-  fetch('http://localhost:3000/hole')
+  fetch('https://doughnut-server-3.herokuapp.com/hole')
   .then((res) => res.json())
   .then((data) => {
     data.forEach((item) => {
